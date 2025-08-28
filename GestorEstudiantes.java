@@ -135,3 +135,15 @@ class Estudiante {
         return nota;
     }
 }
+
+ // Guardar en archivo .txt
+    public static void guardarEnArchivo(ArrayList<Estudiante> lista) {
+        try (FileWriter writer = new FileWriter("estudiantes.txt")) {
+            for (Estudiante e : lista) {
+                writer.write(e.nombre + "," + e.edad + "," + e.nota + "\n");
+            }
+            System.out.println("Datos guardados en estudiantes.txt");
+        } catch (IOException e) {
+            System.out.println("Error al guardar el archivo: " + e.getMessage());
+        }
+    }
