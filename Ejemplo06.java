@@ -19,7 +19,6 @@ public class OrdenacionExternaSimple {
                 }
             }
         }
-
         // Si quedó algo en el buffer al final
         if (!buffer.isEmpty()) {
             archivosTemporales.add(guardarOrdenado(buffer));
