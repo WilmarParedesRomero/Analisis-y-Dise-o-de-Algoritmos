@@ -4,7 +4,7 @@ import java.util.Scanner;
     
 public class GestorEstudiantes {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
     
         // 1. Pedir cantidad de estudiantes
         System.out.print("¿Cuántos estudiantes desea ingresar?: ");
