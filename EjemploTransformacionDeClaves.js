@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class TransformacionDeClaves {
+public class TransformacionDeClaves { 
     public static void main(String[] args) {
         HashMap<Integer, String> tablaHash = new HashMap<>();
         Scanner sc = new Scanner(System.in);
