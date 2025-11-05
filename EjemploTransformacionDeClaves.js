@@ -6,7 +6,7 @@ public class TransformacionDeClaves {
         HashMap<Integer, String> tablaHash = new HashMap<>();
         Scanner sc = new Scanner(System.in);
  
-        // Insertar estudiantes
+        // Insertar estudiantes 
         System.out.print("¿Cuántos estudiantes desea ingresar?: ");
         int cantidad = sc.nextInt();
         sc.nextLine(); // limpiar buffer
