@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class BusquedaMedianteIndices {
     public static void main(String[] args) {
         int[] datos = {3, 5, 8, 12, 15, 18, 21, 25, 29, 33, 37, 40, 44, 47, 50};
