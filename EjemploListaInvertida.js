@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
+import java.util.Scanner; 
      
 public class ListaInvertida {
     public static void main(String[] args) {
