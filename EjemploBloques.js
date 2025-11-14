@@ -5,7 +5,7 @@ public class BusquedaPorBloques {
         int[] datos = {3, 5, 8, 12, 15, 18, 21, 25, 29, 33, 37, 40, 44, 47, 50};
         int bloque = 5; // tamaño del bloque
         Scanner sc = new Scanner(System.in);
-
+ 
         System.out.print("Ingrese el número a buscar: ");
         int objetivo = sc.nextInt();
 
