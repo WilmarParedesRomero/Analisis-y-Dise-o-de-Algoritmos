@@ -64,7 +64,7 @@ public class GestorEstudiantes {
     }
 
     // =======================================================
-    //   MÉTODOS DE ORDENACIÓN (los que ya tenías)
+    //   MÉTODOS DE ORDENACIÓN 
     // =======================================================
 
     public static void ordenarPorInsercionNotaAsc(List<Estudiante> lista) {
